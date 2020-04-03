@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Datos Personales</h1>
+    <form action="" method="get">
+       Apellido: <input type="text" name="apellido" style="width: 200px;"> 
+       <br>
+       <br>
+       Nombres: <input type="text" name="nombres"  style="width: 300px;">
+       <br>
+       <br>
+       Dni :<input type="number" name="dni" maxlength="8" style="width: 100px;">
+       <br>
+       <br>
+       <label for="masculino">Masculino</label>
+       Masculino<input type="radio" name="genero" value="Fem" id="masculino">
+       Femenino<input type="radio" name="genero" value="Masc">
+       <br>
+       <br>
+       Deporte que Practica <br>
+       <input type="checkbox" name="deportes" value="futbol">futbol
+       <br>
+       <input type="checkbox" name="deportes" value="rugby">Rugby
+       
+       <br>
+       PassWord :<input type="password" name="pass">
+       <br>
+       <input type="button" name="boton" value="Enviar">
+       <br>
+       <input type="hidden" name="oculto" value="ip">
+       <br>
+       <input type="file" name="agregarArchivo">
+       <input type="submit" value="Enviar">
+       <br>
+       <input type="reset" value="Limpiar">
+       <select name="Lenguaje" id="">
+           <option value="J">Java</option>
+           <option value="Js">Js</option>
+           <option value="P">PHP</option>
+           <option value="N">.Net</option>
+       </select>
+       <br>
+       <hr>
+       <textarea name="comentario" id="" cols="30" rows="10">Ingrese su comentarios</textarea>
+
+    </form>
+
+</body>
+</html>

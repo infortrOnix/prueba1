@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 TP2</title>
+</head>
+<body>
+    <h1>Datos de Persona</h1>
+    <form action="Ejercicio1.html" method="GET">
+        <table border="1px">
+            <tr>
+             <td>Nombre</td>
+             <td><input type="text" name="nombre" required></td>
+            </tr>
+         <tr>
+            <td>Apellido</td>
+            <td><input type="text" name="apellido" required></td>
+         </tr>
+         <tr>
+            <td>Telefono</td>
+            <td><input type="number" name="tel" maxlength="12"></td>
+         </tr>
+         <tr>
+            <td>Sexo</td>
+            <td><input type="radio" name="sex" value="M" checked>Masculino<input type="radio" name="sex" value="F">Femenino</td>
+         </tr>
+         <tr>
+            <td>Edad</td>
+            <td><input type="number" name="edad"></td>
+         </tr>
+         <tr>
+            <td>E-Mail</td>
+            <td><input type="email" name="correo" required></td>
+         </tr>
+         <tr>
+            <td>Fecha Nac.</td>
+            <td><input type="date" name="nac"></td>
+         </tr>
+         <tr>
+            <td>Ocupación</td>
+            <td>
+                <select name="ocupa">
+                    <option value="Ing">Ingeniero</option>
+                    <option value="Dev">DevOps</option>
+                    <option value="Prog">Desarrollador</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Hobbies</td>
+            <td>
+                <select name="hobbi" multiple>
+                    <option value="dep">Deportes</option>
+                    <option value="leer">Lectura</option>
+                    <option value="game">Video Juegos</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td>Nacionalidad</td>
+            <td>
+                <select name="nac" >
+                    <option value="def" selected>Selecciones una opcion</option>
+                    <option value="arg">Argentino</option>
+                    <option value="br">Brazilero</option>
+                    <option value="ch">Chileno</option>
+                </select>
+            </td>
+         </tr>
+
+        </table>
+    </form>
+</body>
+</html>
